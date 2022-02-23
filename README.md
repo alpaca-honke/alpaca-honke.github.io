@@ -1,1 +1,2 @@
-Default stylesheet is "textbox2.css", but you can use "textbox.css" too.
+デフォルトではスタイルシートにtextbox2.cssが指定されていますが、textbox.cssも利用可能です。
+近いうちにダークテーマ対応のものも追加予定です。
