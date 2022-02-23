@@ -1,0 +1,38 @@
+<!DOCTYPEhtml>
+<html>
+ <head>
+  <!--<title>Google/Yahoo!/Bing検索</title>
+  <link rel=”shortcut icon” href=“https://drive.google.com/uc?id=1q7BZbt4WA2GKyUET3X0wp68fAfHVTYqx”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1>-->
+  <!--<?!= include('検索バーStylesheet2'); ?>-->
+  <link rel="stylesheet" href="textbox2.css">
+ </head>
+ <body>
+   <header>
+     <img src="https://drive.google.com/uc?id=1pkKwZdvMzGopXIo5lIWeR0o4q8fLvmjm" class="logo" style="height: 40px; padding: 8px 4px 8px 12px;">
+     <p class="page-title">あるかっぱ<span class="gaibusaito">外部サイトです</span></p>
+   </header>
+   <center>
+   <h1>Google/Yahoo!/Bing検索</h1>
+   <p>自分で作りました。
+     <br>下記リンクからソースコードをダウンロードできます。スタイルシートは4種類用意してあります。ウイルスチェック等は各自でお願いします。
+     <br><a href="https://drive.google.com/uc?id=18UQvTfQvl1T36DvJrziajoRTrBAeMeVi" dounload="sourcecode.zip">ソースコードのダウンロード(Windows用にShift-JISエンコード)</a>
+     <br><a href="https://drive.google.com/uc?id=11_kqQ73n90560khZpbmXbzzvnxRW8e4o" dounload="sourcecode.zip">ソースコードのダウンロード(Mac,Linux,Unix,ChromeOS用にUTF-8エンコード)</a>
+     <br>どちらをダウンロードすればいいかわからないときは、下のUTF-8が無難です。
+    </p>
+   <div class="searchboxset">
+   <form onsubmit="google(); return false;">
+      <input id="keywords" type="text" placeholder="検索キーワードを入力">
+    </form><!--
+    --><div class="buttonset"><!--
+    --><button class="google" onclick="google()">Google検索</button><!--
+   --><button class="yahoo" onclick="yahoo()">Yahoo!検索</button><!--
+   --><button class="bing" onclick="bing()">Bing検索</button>
+    </div>
+   </div>
+   </center>
+   <button class="GoToHome" onclick="GoToHome()">ホームへ<br>戻る</button>
+  <!--<?!= include('検索バーJavascript');?>-->
+  <script type="text/javascript" language="javascript" src="textbox.js"></script>
+   </body>
+</html>
