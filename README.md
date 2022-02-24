@@ -1,2 +1,2 @@
-デフォルトではスタイルシートにtextbox2.cssが指定されていますが、textbox.cssも利用可能です。  
-近いうちにダークテーマ対応のものも追加予定です。
+## index.html  
+デフォルトではスタイルシートにtextbox2.cssが指定されていますが、textbox.css、textbox-dark.css、textbox2-dark.cssも利用可能です。  
