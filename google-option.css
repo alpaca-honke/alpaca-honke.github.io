@@ -60,6 +60,9 @@ input:focus {
 div.selectbox {
     display: inline-block;
 }
+select:focus {
+    outline: none;
+}
 #socialmedia {
     width: 300px;
 }
