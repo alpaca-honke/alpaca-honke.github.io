@@ -1,3 +1,5 @@
+[https://alpaca-honke.github.io](https;//alpaca-honke.github.io) からリダイレクトされるページです。
+  
 # alpaca-honke.github.io  
 ## textbox.html  
 [GoogleAppsScript](https://script.google.com/macros/s/AKfycbwWqsiOJEIj-DfRByZILn7Z3B0Cp0lxdr824AM-thRM5VQ84Hf9tyiJ28z_TAWcK_xMSw/exec) にて公開したものを移植したものです。  
