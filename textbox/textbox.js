@@ -10,6 +10,8 @@ function bing() {
   var keywords = document.getElementById("keywords").value;
   top.location.href = "https://www.bing.com/search?q=" + keywords + "";
 }
-function GoToHome() {
-  top.location.href = "https://sites.google.com/view/alalpaca/home";
+function setstyle() {
+  var csslink = document.getElementById("csslink");
+  var cssselect = document.getElementById("cssselect").value;
+  csslink.setAttribute("href", cssselect);
 }
