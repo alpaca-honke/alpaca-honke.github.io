@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+  color: #000000;
+}
+center {
+  text-align: center;
+  padding-top: 70px;
+}
+h1{
+  color: #226E93;
+  font-family: Lato, sans-serif;
+  font-size: 34pt;
+  font-weight: 300;
+}
+a {
+  color: #67c5ff;
+  text-decoration: none;
+  padding: 1px;
+  transition: .4s;
+}
+a:hover {
+  color: #555566;
+}
+a:active {
+  background: #67c5ff;
+}
+.searchboxset {
+  display: block;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+#keywords,form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  margin: 5px;
+}
+#keywords{
+  height: 40px;
+  width: 700px;
+  padding: 0 0 0 15px;
+  border: solid 1px #000000;
+}
+#keywords:hover{
+  background: #eeffee;
+}
+#keywords:focus{
+  background: #D3EEFF;
+  outline: none
+}
+.buttonset {
+  display: inline-block;
+  margin: 0px;
+}
+button {
+  display: inline-block;
+  margin: 5px;
+  padding: 0px;
+  height: 40px;
+  color: #67c5ff;
+  background: #ffffff;
+  border: solid 1px #67c5ff;
+  transition: .4s;
+  border-radius: 20px;
+}
+button:hover {
+  background: #555566;
+  color: #66eeff;
+}
+button:active {
+  background: #67c5ff;
+}
+.google{
+  width: 90px;
+}
+.yahoo{
+  width: 90px;
+}
+.bing{
+  width: 90px;
+}
+
+@media screen and (max-width: 701px) {
+  .searchboxset {
+    text-align: center;
+  }
+  #keywords,form {
+    display: flex;
+    width: 100vw;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    margin: 5px;
+  }
+  .buttonset {
+    display: block;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+  color: #000000;
+}
+center {
+  text-align: center;
+  padding-top: 70px;
+}
+h1{
+  color: #226E93;
+  font-family: Lato, sans-serif;
+  font-size: 34pt;
+  font-weight: 300;
+}
+a {
+  color: #67c5ff;
+  text-decoration: none;
+  padding: 1px;
+  transition: .4s;
+}
+a:hover {
+  color: #555566;
+}
+a:active {
+  background: #67c5ff;
+}
+.searchboxset {
+  display: block;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+form{
+  display: inline-block;
+  margin: 0px;
+}
+#keywords{
+  display: inline-block;
+  height: 40px;
+  width: 400px;
+  padding: 0 0 0 15px;
+  border-radius: 20px 0 0 20px;
+  border: solid 1px #000000;
+  margin: 0px;
+}
+#keywords:hover{
+  background-color: #eeffee;
+}
+#keywords:focus{
+  background-color: #D3EEFF;
+  outline: none
+}
+.buttonset {
+  display: inline-block;
+  margin: 0px;
+}
+button {
+  display: inline-block;
+  height: 40px;
+  background: #ffffff;
+  color: #67c5ff;
+  border: solid 1px #67c5ff;
+  transition: .4s;
+}
+button:hover {
+  background: #555566;
+  color: #66eeff;
+}
+button:active {
+  background: #67c5ff;
+}
+.google{
+  border-radius: 0px;
+  width: 90px;
+}
+.yahoo{
+  border-radius: 0px;
+  width: 90px;
+}
+.bing{
+  border-radius: 0 20px 20px 0;
+  width: 90px;
+}
+
+@media screen and (max-width: 701px) {
+  .searchboxset {
+    text-align: center;
+  }
+  #keywords,form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    margin: 5px;
+  }
+  .buttonset {
+    display: block;
+    margin: 5px;
+  }
+  .google {
+    border-radius: 20px 0 0 20px;
+  }
+}

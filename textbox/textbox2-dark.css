@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #303030;
+  color: #ffffff;
+}
+center {
+  text-align: center;
+  padding-top: 70px;
+}
+h1{
+  color: #226E93;
+  font-family: Lato, sans-serif;
+  font-size: 34pt;
+  font-weight: 300;
+}
+a {
+  color: #67c5ff;
+  text-decoration: none;
+  padding: 1px;
+  transition: .4s;
+}
+a:hover {
+  color: #555566;
+}
+a:active {
+  background: #67c5ff;
+}
+.searchboxset {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  display: block;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+#keywords,form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  margin: 5px;
+}
+#keywords{
+  height: 40px;
+  width: 700px;
+  background: #303030;
+  color: #d0d0d0;
+  padding: 0 0 0 15px;
+  border: solid 1px #606060;
+}
+::placeholdaer {
+  color: #a0a0a0;
+}
+#keywords:hover{
+  background: #606060;
+}
+#keywords:focus{
+  background: #d0d0d0;
+  color: #000000;
+  outline: none
+}
+.buttonset {
+  display: inline-block;
+  margin: 0px;
+}
+button {
+  display: inline-block;
+  margin: 5px;
+  padding: 0px;
+  height: 40px;
+  color: #67c5ff;
+  background: #303030;
+  border: solid 1px #67c5ff;
+  transition: .4s;
+  border-radius: 20px;
+}
+button:hover {
+  background: #505060;
+  color: #66eeff;
+}
+button:active {
+  background: #67c5ff;
+}
+.google{
+  width: 90px;
+}
+.yahoo{
+  width: 90px;
+}
+.bing{
+  width: 90px;
+}
+
+@media screen and (max-width: 701px) {
+  .searchboxset {
+    text-align: center;
+  }
+  #keywords,form {
+    display: flex;
+    width: 100vw;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    margin: 5px;
+  }
+  .buttonset {
+    display: block;
+    margin: 5px;
+  }
+}
