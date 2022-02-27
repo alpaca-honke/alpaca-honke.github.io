@@ -4,6 +4,15 @@ body {
   background: #303030;
   color: #ffffff;
 }
+.styleselect {
+  margin: 20px;
+}
+select {
+  background: #303030;
+  color: #ffffff;
+  height: 40px;
+  width: 200px;
+}
 center {
   text-align: center;
   padding-top: 70px;
@@ -87,6 +96,10 @@ button:active {
 .bing{
   border-radius: 0 20px 20px 0;
   width: 90px;
+}
+#setstyle {
+  height: 40px;
+  width: 80px;
 }
 
 @media screen and (max-width: 701px) {
