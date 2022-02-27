@@ -5,4 +5,6 @@
 公開リンク：[Google/Yahoo!/Bing検索](https://alpaca-honke.github.io/textbox/textbox.html)  
 ## ~/google-option/google-option.html  
 googleの検索オプションを扱いやすくするために作りました。ダークテーマcssなどは今後追加します。  
-公開リンク：[Google検索オプション簡単ツール](https://alpaca-honke.github.io/google-option/google-option.html)
+公開リンク：[Google検索オプション簡単ツール](https://alpaca-honke.github.io/google-option/google-option.html)  
+
+**ソースコード公開:[alpaca-honke/alpaca-honke.github.io](https://github.com/alpaca-honke/alpaca-honke.github,io)**
