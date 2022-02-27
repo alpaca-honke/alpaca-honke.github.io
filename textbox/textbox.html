@@ -3,10 +3,19 @@
  <head>
   <title>Google/Yahoo!/Bing検索</title>
   <link rel=”shortcut icon” href=“https://drive.google.com/uc?id=1q7BZbt4WA2GKyUET3X0wp68fAfHVTYqx”>
-  <meta name=”viewport” content=”width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="textbox2.css">
+  <meta name=”viewport” content=”width=device-width, initial-scale=1>
+  <link id="csslink" rel="stylesheet" href="textbox.css">
  </head>
  <body>
+   <div class="styleselect">
+     <select id="cssselect">
+       <option value="textbox.css">スタイル1ライト</option>
+       <option value="textbox-dark.css">スタイル1ダーク</option>
+       <option value="textbox2.css">スタイル2ライト</option>
+       <option value="textbox2-dark.css">スタイル2ダーク</option>
+     </select>
+     <button id="setstyle" onclick="setstyle()">適用</button>
+   </div>
    <center>
    <h1>Google/Yahoo!/Bing検索</h1>
    <p>これ、需要あるのかなぁ？
