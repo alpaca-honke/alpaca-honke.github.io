@@ -27,11 +27,6 @@ a:active {
   background: #67c5ff;
 }
 .searchboxset {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
   display: block;
   text-align: center;
   margin: 5px 5px 5px 5px;
