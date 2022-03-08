@@ -47,9 +47,9 @@ Googleの検索オプションを扱いやすくするために作りました�
 - JavaScript
 ### Updates
 - Mar 7, 2022
-  - First publish
-***
-***
+  - First publish  
+***  
+***  
 
 ソースコード公開  
 [https://github.com/alpaca-honke/alpaca-honke.github,io](https://github.com/alpaca-honke/alpaca-honke.github,io)
