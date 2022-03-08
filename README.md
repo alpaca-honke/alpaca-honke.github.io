@@ -27,7 +27,7 @@
 ***  
 
 ## ~/google-option/google-option.html  
-Googleの検索オプションを扱いやすくするために作りました。ダークテーマcssなどは今後追加します。  
+Googleの検索オプションを扱いやすくするために作りました。  
 公開リンク：[Google検索オプション簡単ツール](https://alpaca-honke.github.io/google-option/google-option.html)  
 ### Languages  
 - HTML5  
@@ -60,4 +60,4 @@ Googleの検索オプションを扱いやすくするために作りました�
 ***  
 ***  
 
-**ソースコード公開:[https://github.com/alpaca-honke/alpaca-honke.github,io](https://github.com/alpaca-honke/alpaca-honke.github,io)**
+**ソースコード公開:[https://github.com/alpaca-honke/alpaca-honke.github.io](https://github.com/alpaca-honke/alpaca-honke.github.io)**
