@@ -1,0 +1,91 @@
+body {
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+h1 {
+  color: #226E93;
+  font-family: Lato, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 16px;
+  margin: 15px;
+}
+
+div {
+  display: block;
+}
+
+div.beat,div.speed {
+  display: inline-block;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+select,input {
+  height: 40px;
+  width: 200px;
+  margin: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #000000;
+}
+
+select:hover,input:hover {
+  background: #e0ffff;
+}
+
+select:focus,input:focus {
+  background: #d0eeff;
+  outline: none;
+}
+
+button {
+  height: 50px;
+  width: 300px;
+  background: #2bb1da;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 5px 5px 5px;
+}
+
+button:hover {
+  background: #41b6da;
+}
+
+button:active {
+  background: #279cc0;
+}
+
+div#bokenasu {
+  height: 500px;
+  color: #ff0000;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+div#bokenasu2 {
+  height: 500px;
+  color: #ff0000;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+p.bokenasu {
+  font-size: 150px;
+}
+
+
+@media screen and (max-width: 650px) {
+  button {
+    width: 100%;
+  }
+}
