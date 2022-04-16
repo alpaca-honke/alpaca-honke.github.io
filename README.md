@@ -55,7 +55,17 @@ Googleの検索オプションを扱いやすくするために作りました�
 ### Updates  
 - Mar 7, 2022  
   - First publish   
-
+  
+## ~/metronome/metronome2.html  
+メトロノームです。メトロノームの機能はありません。ただ罵倒されるだけです。閲覧注意。ちゃんと真面目なやつはいつか作ります。いつか。  
+公開リンク：[メトロノーム2](https://alpaca-honke.github.io/metronome/metronome2.html)  
+### Languages  
+- HTML5  
+- CSS3  
+- JavaScript  
+### Updates
+- Apr 16, 2022  
+  - First publish  
 
 ***  
 ***  
