@@ -66,6 +66,7 @@ Googleの検索オプションを扱いやすくするために作りました�
 ### Updates
 - Apr 16, 2022  
   - First publish  
+  - Add some direction
 
 ***  
 ***  
