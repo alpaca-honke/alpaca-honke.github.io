@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=ja dir="ltr">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta property="og:url" content="https://alpaca-honke.github.io/browser/browser.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="ブラウザonブラウザ" />
+    <meta property="og:description" content="ブラウザ上でブラウザのようなことをするために作りました。（？）" />
+    <meta property="og:site_name" content="alpaca-honke.github.io" />
+    <meta property="og:image" content="https://alpaca-honke.github.io/GitHubMarkForOGP.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@alpaca_honke" />
+    <meta charset="utf-8">
+    <title>ブラウザonブラウザ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="browser.css">
+  </head>
+  <body>
+    <div class="direction">
+      <h1>ブラウザonブラウザ</h1>
+      <p>使い方、注意事項は<a href="https://alpaca-honke.github.io#browserbrowserhtml">こちら(最初に表示されているページを下にスクロールしたところにもあります)</a>※必ずお読みください</p>
+      <form class="urlform" onsubmit="changepage(); return false;">
+        <input type="url" id="url" onfocus="this.select();" placeholder="Enter URL">
+      </form>
+    </div>
+    <div class="hontai">
+      <iframe id="iframe" src="https://alpaca-honke.github.io" frameborder="0"></iframe>
+    </div>
+  </body>
+  <script src="browser.js" charset="utf-8"></script>
+</html>
