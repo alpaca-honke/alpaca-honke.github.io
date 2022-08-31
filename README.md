@@ -2,8 +2,7 @@
 ***
 
 ## ~/textbox/textbox.html  
-GoogleとYahoo!JapanとBingの検索を選べる検索ボックスを作りました。  
-[GoogleAppsScript](https://script.google.com/macros/s/AKfycbwpJeDx0pWiuhdtLSz_4Q1ha_6G75yKSuiXoIpQh7xy7arANWgNyNs4ECk_p7ZYzbI9Pg/exec) にて公開したものを移植したものです。  
+GoogleとYahoo!JapanとBingの検索を選べる検索ボックスを作りました。   
 デフォルトではスタイルシートにtextbox2.cssが指定されていますが、textbox.css、textbox-dark.css、textbox2-dark.cssも利用可能です。左上のドロップダウンメニューから選んで、適用ボタンを押してください。  
 公開リンク：[Google/Yahoo!/Bing検索](https://alpaca-honke.github.io/textbox/textbox.html)  
 ### Languages  
