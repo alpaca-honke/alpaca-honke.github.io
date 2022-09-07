@@ -9,36 +9,16 @@ let socialmedia;
 let searchword;
 
 function go() {
-    sitevalue = document.getElementById("site").value;
-    if(sitevalue == "") {
-        document.getElementById("site").value = "go.jp";
-    } else {
-        document.getElementById("site").value = sitevalue + " OR " + "go.jp";
-    }
+    document.getElementById("site").value = sitevalue + " OR " + "go.jp";
 }
 function lg() {
-    sitevalue = document.getElementById("site").value;
-    if(sitevalue == "") {
-        document.getElementById("site").value = "lg.jp";
-    } else {
-        document.getElementById("site").value = sitevalue + " OR " + "lg.jp";
-    }
+    document.getElementById("site").value = sitevalue + " OR " + "lg.jp";
 }
 function ac() {
-    sitevalue = document.getElementById("site").value;
-    if(sitevalue == "") {
-        document.getElementById("site").value = "ac.jp";
-    } else {
-        document.getElementById("site").value = sitevalue + " OR " + "ac.jp";
-    }
+    document.getElementById("site").value = sitevalue + " OR " + "ac.jp";
 }
 function or() {
-    sitevalue = document.getElementById("site").value;
-    if(sitevalue == "") {
-        document.getElementById("site").value = "or.jp";
-    } else {
-        document.getElementById("site").value = sitevalue + " OR " + "or.jp";
-    }
+    document.getElementById("site").value = sitevalue + " OR " + "or.jp";
 }
 
 function search() {
