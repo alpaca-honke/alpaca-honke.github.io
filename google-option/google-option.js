@@ -1,5 +1,15 @@
+let sitevalue;
+let includetext;
+let include;
+let excludetext;
+let exclude;
+let sitetext;
+let site;
+let socialmedia;
+let searchword;
+
 function go() {
-    var sitevalue = document.getElementById("site").value;
+    sitevalue = document.getElementById("site").value;
     if(sitevalue == "") {
         document.getElementById("site").value = "go.jp";
     } else {
@@ -7,7 +17,7 @@ function go() {
     }
 }
 function lg() {
-    var sitevalue = document.getElementById("site").value;
+    sitevalue = document.getElementById("site").value;
     if(sitevalue == "") {
         document.getElementById("site").value = "lg.jp";
     } else {
@@ -15,7 +25,7 @@ function lg() {
     }
 }
 function ac() {
-    var sitevalue = document.getElementById("site").value;
+    sitevalue = document.getElementById("site").value;
     if(sitevalue == "") {
         document.getElementById("site").value = "ac.jp";
     } else {
@@ -23,7 +33,7 @@ function ac() {
     }
 }
 function or() {
-    var sitevalue = document.getElementById("site").value;
+    sitevalue = document.getElementById("site").value;
     if(sitevalue == "") {
         document.getElementById("site").value = "or.jp";
     } else {
@@ -32,32 +42,32 @@ function or() {
 }
 
 function search() {
-    var keyword = document.getElementById("keyword").value;
+    keyword = document.getElementById("keyword").value;
 
-    var qinclude = document.getElementById("include").value;
-    if(qinclude == "") {
-        var include = qinclude;
+    includetext = document.getElementById("include").value;
+    if(includetext == "") {
+        include = includetext;
     } else {
-        var include = '"' + qinclude + '"';
+        include = '"' + includetext + '"';
     }
 
-    var qexclude = document.getElementById("exclude").value;
-    if(qexclude == "") {
-        var exclude = qexclude;
+    excludetext = document.getElementById("exclude").value;
+    if(excludetext == "") {
+        exclude = excludetext;
     } else {
-        var exclude = "-" + qexclude;
+        exclude = "-" + excludetext;
     }
 
-    var qsite = document.getElementById("site").value;
-    if(qsite == "") {
-        var site = qsite;
+    sitetext = document.getElementById("site").value;
+    if(sitetext == "") {
+        site = sitetext;
     } else {
-        var site = "site%3A" + qsite;
+        site = "site%3A" + sitetext;
     }
 
-    var socialmedia = document.getElementById("socialmedia").value;
+    socialmedia = document.getElementById("socialmedia").value;
 
-    var searchword = site + "+" + socialmedia + "+" + keyword + "+" + include + "+" + exclude;
+    searchword = site + "+" + socialmedia + "+" + keyword + "+" + include + "+" + exclude;
 
     location.href = "https://www.google.com/search?q=" + searchword;
 }
