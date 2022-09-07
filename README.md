@@ -46,6 +46,8 @@ Googleの検索オプションを扱いやすくするために作りました�
   - Add google-option-dark.css  
 - Jun 3, 2022  
   - Add OGP settings  
+- Sep 7, 2022
+  - Improve readability of google-option.js  
 
 
 ***  
