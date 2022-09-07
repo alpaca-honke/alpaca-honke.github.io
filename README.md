@@ -20,6 +20,7 @@ GoogleとYahoo!JapanとBingの検索を選べる検索ボックスを作りま�
 - Feb 27, 2022  
   - Move to ~/textbox  
   - Add pull-down menu to be able to change stylesheets easily  
+  - Rename google-yahoojapan-bing.html to textbox.html  
 - Mar 7, 2022  
   - Fix a small part  
 - Jun 3, 2022  
@@ -39,7 +40,6 @@ Googleの検索オプションを扱いやすくするために作りました�
 ### Updates  
 - Feb 27, 2022    
   - First publish  
-  - Rename google-yahoojapan-bing.html to textbox.html  
 - Mar 7, 2022  
   - fix a small part  
 - Mar 8, 2022  
