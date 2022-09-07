@@ -48,6 +48,7 @@ Googleの検索オプションを扱いやすくするために作りました�
   - Add OGP settings  
 - Sep 7, 2022
   - Improve readability of google-option.js  
+  - Removed invalid specifications
 
 
 ***  
