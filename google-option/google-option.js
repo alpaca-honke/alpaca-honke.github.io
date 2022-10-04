@@ -9,45 +9,49 @@ let socialmedia;
 let searchword;
 
 function go() {
-    document.getElementById("site").value = sitevalue + " OR " + "go.jp";
+    document.getElementById("site").value = "go.jp";
 }
 function lg() {
-    document.getElementById("site").value = sitevalue + " OR " + "lg.jp";
+    document.getElementById("site").value = "lg.jp";
 }
 function ac() {
-    document.getElementById("site").value = sitevalue + " OR " + "ac.jp";
+    document.getElementById("site").value = "ac.jp";
 }
 function or() {
-    document.getElementById("site").value = sitevalue + " OR " + "or.jp";
+    document.getElementById("site").value = "or.jp";
 }
 
 function search() {
-    keyword = document.getElementById("keyword").value;
+    keyword = encodeURIComponent( document.getElementById("keyword").value );
 
     includetext = document.getElementById("include").value;
-    if(includetext == "") {
-        include = includetext;
+    if(!includetext) {
+        include = encodeURIComponent( includetext );
     } else {
-        include = '"' + includetext + '"';
+        include = encodeURIComponent( '"' + includetext + '"' );
     }
 
     excludetext = document.getElementById("exclude").value;
-    if(excludetext == "") {
-        exclude = excludetext;
+    if(!excludetext) {
+        exclude = encodeURIComponent( excludetext );
     } else {
-        exclude = "-" + excludetext;
+        exclude = encodeURIComponent( "-" + excludetext );
     }
 
     sitetext = document.getElementById("site").value;
-    if(sitetext == "") {
-        site = sitetext;
+    if(!sitetext) {
+        site = encodeURIComponent( sitetext );
     } else {
-        site = "site%3A" + sitetext;
+        site = encodeURIComponent( "site:" + sitetext );
     }
 
-    socialmedia = document.getElementById("socialmedia").value;
+    socialmedia = encodeURIComponent( document.getElementById("socialmedia").value );
 
-    searchword = site + "+" + socialmedia + "+" + keyword + "+" + include + "+" + exclude;
-
+    if (sitetext !== "" && socialmedia !== "") {
+        searchword = site + "+" + keyword + "+" + include + "+" + exclude;
+    } else {
+        searchword = site + "+" + socialmedia + "+" + keyword + "+" + include + "+" + exclude;
+    }
+    
     location.href = "https://www.google.com/search?q=" + searchword;
 }
