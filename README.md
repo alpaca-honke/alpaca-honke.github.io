@@ -49,6 +49,10 @@ Googleの検索オプションを扱いやすくするために作りました�
 - Sep 7, 2022
   - Improve readability of google-option.js  
   - Removed invalid specifications
+- Oct 4, 2022
+  - Modification of specifications to prevent duplication of similar functions
+  - URL encoding accuracy
+  - minor modifications
 
 
 ***  
