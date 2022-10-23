@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=ja dir="ltr">
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-    <meta property="og:url" content="https://alpaca-honke.github.io/browser/browser.html" />
+    <meta property="og:url" content="https://alpaca-honke.github.io/browser" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="ブラウザonブラウザ" />
     <meta property="og:description" content="ブラウザ上でブラウザのようなことをするために作りました。（？）" />
@@ -17,7 +17,14 @@
   <body>
     <div class="direction">
       <h1>ブラウザonブラウザ</h1>
-      <p>使い方、注意事項は<a href="https://alpaca-honke.github.io#browserbrowserhtml">こちら(最初に表示されているページを下にスクロールしたところにもあります)</a>※必ずお読みください</p>
+      <details>
+        <summary>注意事項</summary>
+        <ul>
+          <li>iframeを使用しています。</li>
+          <li>セキュリティ対策等は一切行っていません。</li>
+          <li>このページを使用したことによる損害等の責任は負いません。</li>
+        </ul>
+      </details>
       <form class="urlform" onsubmit="changepage(); return false;">
         <input type="url" id="url" onfocus="this.select();" placeholder="Enter URL">
       </form>
