@@ -20,11 +20,14 @@
           <p>WEB上に公開されているAdeliaeさんのボカロ曲から「好きかもしれない」を勝手に選出します。ボカロ楽曲の動画タイトル(じゃなくてもいい)を入力すると、「好きかもしれない」がランダムで10曲選ばれます。おすすめされる楽曲は全て僕らの「めちゃくちゃ好き」という楽曲です。ぜひ気になった楽曲を聞いてみてください。（登録済み楽曲数：12曲）</p>
       </div>
         <div class="inputbox">
-          <input type="text" placeholder="動画タイトル(じゃなくてもいい)を入力">
+          <form onsubmit="enter(); return false">
+            <input type="text" placeholder="動画タイトル(じゃなくてもいい)を入力">
+          </form>
         </div>
         <div class="videobox">
           
         </div>
     </div>
+    <script src="ade-music.js" charset="utf-8"></script>
   </body>
 </html>
