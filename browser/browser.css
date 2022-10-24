@@ -16,21 +16,8 @@ h1{
   font-size: 20px;
   font-weight: 300;
 }
-p{
-  display: inline;
-  font-size: 16px;
-}
-a {
-  display: inline;
-  font-size: 16px;
-  color: #2bb1da;
-  text-decoration: underline;
-}
-a:hover {
-  color: #41b6da;
-}
-a:active {
-  color: #279cc0;
+details {
+  background-color: #FFFFFF;
 }
 input {
   height: 30px;
