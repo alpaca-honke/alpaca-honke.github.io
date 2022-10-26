@@ -17,27 +17,26 @@ const video8 = document.getElementById("video8");
 const video9 = document.getElementById("video9");
 const videos = [video0,video1,video2,video3,video4,video5,video6,video7,video8,video9];
 
-function enter(){
-    //表示する動画を0~11の番号で10個リストアップ
-    while (videonum.length < 10){
-        num_tmp = Math.floor(Math.random() * 12);
-        
-        result = videonum.some((value) => {
-            return value === num_tmp;
-        });
-        
-        if (result == false){
-            videonum.push(num_tmp);
-        }
-        
-        console.log(videonum); //動作確認
-    };
-    
-    //動画を表示
-	while(ind < 12){
+//ホントはform要素のonsubmitで関数呼び出したかったんですが、return falseいれてもリロードされちゃったのでまるごとjsで実装しました。
+document.getElementById("form").addEventListener("keypress", (e)=>{
+	if(e.keyCode === 13){
+	//表示する動画を0~11の番号で10個リストアップ
+		while (videonum.length < 10){
+			num_tmp = Math.floor(Math.random() * 12);
+
+			result = videonum.some((value) => {
+				return value === num_tmp;
+			});
+
+			if (result == false){
+				videonum.push(num_tmp);
+			}
+		};
+
+		//動画を表示
+		while(ind < 10){
 			videos[ind].setAttribute("src","https://embed.nicovideo.jp/watch/" + videoid[videonum[ind]] + "/script?w=640&h=360");
 			ind ++;
-			console.log(ind);
 		};
-		return false;
-};
+	}
+});
