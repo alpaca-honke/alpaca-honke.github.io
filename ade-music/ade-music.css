@@ -1,27 +1,30 @@
 body{
     text-align: center;
-    color: #e0e0e0;
-    background: #303030;
+    color: #fafafa;
+    background: #0e1117;
 }
 .main{
-    width: 650px;
-    margin: 0 calc(50% - 325px) 0 calc(50% - 325px);
+    width: 700px;
+    margin: 0 calc(50% - 350px) 0 calc(50% - 350px);
 }
 h1{}
 .discription{
     text-align: left;
-    background: #004000;
-    border: 1px solid #305030;
+    background: #0c2216;
+    border: 1px solid #113f27;
     border-radius: 5px;
     padding: 3px;
 }
 .discription p{
     margin: 10px;
-    color: #50e050;
+    color: #34c385;
 }
 a{
-    color: #9090ff;
+    color: #65a1f4;
     text-decoration: none;
+}
+details{
+    margin:10px;
 }
 .inputbox{
     margin:20px 0 0 0;
@@ -33,18 +36,18 @@ a{
     width: 95%;
     border-radius: 5px;
     border: 0;
-    background: #505050;
-    color: #e0e0e0;
+    background: #262730;
+    color: #fafafa;
 }
 #form:hover{
-    background: #404040;
+    background: #32343f;
 }
 #form:focus{
-    background: #404040;
-    outline: none;
+    background: #32343f;
+    outline: 2px solid #4977f6;
 }
 ::placeholder{
-    color: #a0a0a0;
+    color: #a5a6a9;
 }
 .videobox{
     margin: 10px 0 10px 0;
@@ -56,7 +59,7 @@ noscript p{
     margin: 10px 0 10px 0;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 750px){
     .main{
         width: calc(100% - 6px);
         margin: 0 3px 0 3px;

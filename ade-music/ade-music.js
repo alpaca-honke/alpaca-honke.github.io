@@ -20,7 +20,12 @@ const videos = [video0,video1,video2,video3,video4,video5,video6,video7,video8,v
 //ホントはform要素のonsubmitで関数呼び出したかったんですが、return falseいれてもリロードされちゃったのでまるごとjsで実装しました。
 document.getElementById("form").addEventListener("keypress", (e)=>{
 	if(e.keyCode === 13){
-	//表示する動画を0~11の番号で10個リストアップ
+		//変数の初期化
+		num_tmp = 0;
+		result = true;
+		videonum = [];
+		ind = 0;
+		//表示する動画を0~11の番号で10個リストアップ
 		while (videonum.length < 10){
 			num_tmp = Math.floor(Math.random() * 12);
 
