@@ -3,20 +3,23 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta property="og:url" content="https://alpaca-honke.github.io/ade-music" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ステマ（仮）" /><!--タイトルまだ仮-->
-    <meta property="og:description" content="" /><!--説明未入力-->
+    <meta property="og:title" content="ボカロ曲を入力するとAdeliaeさんの曲を10曲おすすめする" />
+    <meta property="og:description" content="ボカロ曲を入力するとAdeliaeさんの曲を10曲おすすめします。" />
     <meta property="og:site_name" content="alpaca-honke.github.io" />
     <meta property="og:image" content="https://alpaca-honke.github.io/GitHubMarkForOGP.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@alpaca_honke" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ステマ（仮）</title>
+    <title>ボカロ曲を入力するとAdeliaeの曲を10曲おすすめする</title>
 	<link rel="stylesheet" href="ade-music.css">
   </head>
   <body>
     <div class="main">
-        <h1>ステマ（仮）</h1>
+        <h1>ボカロ曲を入力するとAdeliaeの曲を10曲おすすめする</h1>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="ボカロ曲を入力するとAdeliaeのさん曲を10曲おすすめするサイト" data-url="https://alpaca-honke.github.io/ade-music" data-via="alpaca_honke" data-related="del_conoe" data-show-count="false">Tweet</a>
+        <div class="fb-share-button" data-href="https://alpaca-honke.github.io/ade-music" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falpaca-honke.github.io%2Fade-music&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェアする</a></div>
+        <div class="line-it-button" data-lang="ja" data-type="share-a" data-env="REAL" data-url="https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-line-share-buttons/" data-color="default" data-size="large" data-count="true" data-ver="3" style="display: none;"></div>
       <div class="discription">
           <p>WEB上に公開されているAdeliaeさんのボカロ曲から「好きかもしれない」を勝手に選出します。ボカロ楽曲の動画タイトル(じゃなくてもいい)を入力すると、「好きかもしれない」がランダムで10曲選ばれます。おすすめされる楽曲は全て僕らあでさんファンの「めちゃくちゃ好き」という楽曲です。ぜひ気になった楽曲を聞いてみてください。（登録済み楽曲数：12曲）</p>
           <p>元ネタ:<a href="https://vector.streamlitapp.com/" target="_blank">https://vector.streamlitapp.com/</a>　←めちゃすごい</p>
@@ -27,12 +30,13 @@
                 <ul>
                   <li>このページは上記元ネタのパロディでジョークです。</li>
                   <li>このページについてAdeliaeさんに直接問い合わせないでください。</li>
-                  <li>お問い合わせはあるかっぱ<a href="https://twitter.com/alpaca_honke" target="_blank">Twitter@alpaca_honke</a>までお願いします。</li>
+                  <li>お問い合わせはあるかっぱ<a href="https://twitter.com/messages/compose?recipient_id=&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="alpaca_honke" data-show-count="false">Message @alpaca_honke</a>までお願いします。</li>
                 </ul>
           </details>
       </div>
         <div class="inputbox">
 			<input id="form" type="text" placeholder="動画タイトル(じゃなくてもいい)を入力">
+            <input id="button" type="button" onclick="enter();" value="OK">
         </div>
         <div class="videobox">
 		 <noscript><p>JavaScriptをオンにしてください</p></noscript>
@@ -47,8 +51,12 @@
          <script id="video8" class="video" type="application/javascript"></script>
          <script id="video9" class="video" type="application/javascript"></script>
         </div>
-        <p>ソースコード公開:<a href="https://github.com/alpaca-honke/alpaca-honke.github.io" target="_blank">https://github.com/alpaca-honke/alpaca-honke.github.io</a></p>
+        <p>ソースコード:<a href="https://github.com/alpaca-honke/alpaca-honke.github.io" target="_blank">https://github.com/alpaca-honke/alpaca-honke.github.io</a></p>
     </div>
     <script src="ade-music.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v15.0" nonce="T0r2IpAk"></script>
+    <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
   </body>
 </html>

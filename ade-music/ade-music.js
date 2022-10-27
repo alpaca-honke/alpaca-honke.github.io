@@ -20,6 +20,11 @@ const videos = [video0,video1,video2,video3,video4,video5,video6,video7,video8,v
 //ホントはform要素のonsubmitで関数呼び出したかったんですが、return falseいれてもリロードされちゃったのでまるごとjsで実装しました。
 document.getElementById("form").addEventListener("keypress", (e)=>{
 	if(e.keyCode === 13){
+        enter()
+    };
+});
+    
+    function enter(){
 		//変数の初期化
 		num_tmp = 0;
 		result = true;
@@ -43,5 +48,4 @@ document.getElementById("form").addEventListener("keypress", (e)=>{
 			videos[ind].setAttribute("src","https://embed.nicovideo.jp/watch/" + videoid[videonum[ind]] + "/script?w=640&h=360");
 			ind ++;
 		};
-	}
-});
+}
