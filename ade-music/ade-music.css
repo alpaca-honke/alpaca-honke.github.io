@@ -26,6 +26,9 @@ a{
 details{
     margin:10px;
 }
+summary{
+    cursor: pointer; 
+}
 .inputbox{
     margin:20px 0 0 0;
     padding:0;
