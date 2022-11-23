@@ -8,6 +8,7 @@
 [ピアノonブラウザ](https://alpaca-honke.github.io/keyboard)  
 [メトロノーム2](https://alpaca-honke.github.io/metronome)  
 [ブラウザonブラウザ](https://alpaca-honke.github.io/browser)  
+[ボカロ曲を入力するとAdeliaeさんの曲を10曲おすすめする](https://alpaca-honke.github.io/ade-music)
 
 ***  
 
