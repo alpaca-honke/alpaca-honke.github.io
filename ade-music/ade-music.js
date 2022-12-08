@@ -2,9 +2,8 @@ const videoid = ["sm37910958","sm38620406","sm38937833","sm39126100","sm39469505
 //下の配列は使わないけどなんとなく作ってある。
 const videotitle = ["【ネタ曲】チーズ牛丼には罪はない feat. AIきりたん / Adeliae","ディスコネクト feat. IA / Adeliae","ユモレスク feat. IA / Adeliae","ユメにサヨナラを feat. 歌愛ユキ / Adeliae","ハンパナプラス feat. IA / Adeliae","人生なんて feat. AIきりたん / Adeliae","不時着 feat. 可不 / Adeliae","シビレキラシテ (short ver.) / 可不","アンコール feat. 可不 / Adeliae","「Blink」feat. 初音ミク / Adeliae","シンフォニア feat. 初音ミク / Adeliae","スペクトラム・ケプストラム feat. 星界 / Adeliae","ハルシネイション・シザーハンズ feat. IA / Adeliae"];
 //<script type="application/javascript" src="https://embed.nicovideo.jp/watch/[id]/script?w=640&h=360"></script><noscript><a href="https://www.nicovideo.jp/watch/[id]">[title]</a></noscript>
-let num_tmp;
-let result;
-let videonum = [];
+let numbers = [];
+let shuffled_numbers = [];
 let ind = 0;
 const video0 = document.getElementById("video0");
 const video1 = document.getElementById("video1");
@@ -27,28 +26,19 @@ document.getElementById("form").addEventListener("keypress", (e)=>{
     
 function enter(){
     //変数の初期化
-    num_tmp = 0;
-    result = true;
-    videonum = [];
+	numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12];
+	shuffled_numbers = [];
     ind = 0;
-    //表示する動画を0~11の番号で10個リストアップ
-    while (videonum.length < 10){
-	   num_tmp = Math.floor(Math.random() * 13);
+	//ランダムに10個選出
+	numbers.sort(() => 
+		Math.random() - 0.5
+	);
 
-	   result = videonum.some((value) => {
-	       return value === num_tmp;
-	   });
-
-	if (result == false){
-		videonum.push(num_tmp);
-        //動作確認用
-        //console.log(videonum);
-	}
-    };
+	shuffled_numbers = numbers.slice(0,10);
 
     //動画を表示
     while(ind < 10){
-			videos[ind].setAttribute("src","https://embed.nicovideo.jp/watch/" + videoid[videonum[ind]] + "/script?w=640&h=360");
+			videos[ind].setAttribute("src","https://embed.nicovideo.jp/watch/" + videoid[shuffled_numbers[ind]] + "/script?w=640&h=360");
 			ind ++;
 	};
 }
