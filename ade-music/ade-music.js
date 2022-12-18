@@ -5,6 +5,8 @@ const videotitle = ["【ネタ曲】チーズ牛丼には罪はない feat. AI�
 let numbers = [];
 let shuffled_numbers = [];
 let ind = 0;
+let i = 0;
+let j = 0;
 const video0 = document.getElementById("video0");
 const video1 = document.getElementById("video1");
 const video2 = document.getElementById("video2");
@@ -16,8 +18,15 @@ const video7 = document.getElementById("video7");
 const video8 = document.getElementById("video8");
 const video9 = document.getElementById("video9");
 const videos = [video0,video1,video2,video3,video4,video5,video6,video7,video8,video9];
+//フィッシャーイェーツのアルゴリズムでシャッフルする関数
+const shuffleArray = (array) => {
+	for (i = array.length -1 ; i > 0 ; i--){
+		j = Math.floor(Math.random() * (i + 1));
+		[array[i], array[j]] = [array[j], array[i]];
+	}
+};
 
-//ホントはform要素のonsubmitで関数呼び出したかったんですが、return falseいれてもリロードされちゃったのでまるごとjsで実装しました。
+//ホントはform要素のonsubmitで関数呼び出したかったんですが、return falseいれてもリロードされちゃったのでまるごとjsで実装しました。このあたり今まで何度も奮闘してるなぁ
 document.getElementById("form").addEventListener("keypress", (e)=>{
 	if(e.keyCode === 13){
         enter()
@@ -27,13 +36,11 @@ document.getElementById("form").addEventListener("keypress", (e)=>{
 function enter(){
     //変数の初期化
 	numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12];
-	shuffled_numbers = [];
     ind = 0;
+	i = 0;
+	shuffled_numbers = 0;
 	//ランダムに10個選出
-	numbers.sort(() => 
-		Math.random() - 0.5
-	);
-
+	shuffleArray(numbers);
 	shuffled_numbers = numbers.slice(0,10);
 
     //動画を表示
