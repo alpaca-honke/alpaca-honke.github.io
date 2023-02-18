@@ -32,10 +32,10 @@ Eメールでのやり取りを希望する方は、GoogleFormsから、返信�
 - [Qiita @alpaca-honke](https://qiita.com/alpaca-honke)  
 - <details>
     <summary>その他</summary>
-    
-  - [Spoon](https://spoon.onelink.me/Uuzo/yj2thiby)  
-  - [Twitter (Spoon垢) @al_alpaca](https://twitter.com/al_alpaca)  
-
+      <ul>
+        <li><a href="https://spoon.onelink.me/Uuzo/yj2thiby">Spoon @alkappa_alpaca</a></li>
+        <li><a href="https://twitter.com/al_alpaca">Twitter (Spoon垢) @al?alpaca</a></li>
+      </ul>
     </details>
 
 ## このサイトについて  
