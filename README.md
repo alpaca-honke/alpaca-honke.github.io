@@ -1,6 +1,7 @@
 ---
 title: あるかっぱ/アルパカ本家 Alkappa/alpaca-honke
 image: https://alpaca-honke.github.io/GitHubMarkForOGP.png
+permalink: /
 ---
 # あるかっぱ/アルパカ本家 Alkappa/alpaca-honke  
 
