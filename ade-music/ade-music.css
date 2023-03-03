@@ -56,6 +56,8 @@ summary{
 .music_list_item{
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 .music_list_item img{
     width: 20%;
@@ -127,10 +129,13 @@ noscript p{
         margin: 0 3px 0 3px;
     }
     #form{
-        width: 95%;
+        width: 100%;
+        box-sizing: border-box;
     }
     #button{
         width: 100%;
+        box-sizing: border-box;
+        margin: 5px 0 5px 0;
         padding: 10px;
     }
 }
