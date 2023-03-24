@@ -2,7 +2,7 @@ theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-url: https://alpaca-honke.github.com
+url: https://alpaca-honke.github.io/
 twitter:
   card: summary
   user: alpaca-honke
