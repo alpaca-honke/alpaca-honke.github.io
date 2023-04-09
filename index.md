@@ -32,11 +32,12 @@ Eメールでのやり取りを希望する方は、GoogleFormsから、返信�
 - [ウェブページ（このページ）（大したことは書いてないね。）](https://alpaca-honke.github.io)  
 - [Qiita @alpaca-honke](https://qiita.com/alpaca-honke)  
 - [Misskey (Mastodon などでも閲覧可) @alpaca_honke@misskey.io](https://misskey.io/@alpaca_honke/)
+- [Vocalodon (Mastodon) @alpaca_honke@vocalodon.net](https://vocalodon.net/web/accounts/354814)
 - <details>
     <summary>その他</summary>
       <ul>
         <li><a href="https://spoon.onelink.me/Uuzo/yj2thiby">Spoon @alkappa_alpaca</a></li>
-        <li><a href="https://twitter.com/al_alpaca">Twitter (Spoon垢) @al?alpaca</a></li>
+        <li><a href="https://twitter.com/al_alpaca">Twitter (Spoon垢) @al_alpaca</a></li>
       </ul>
   </details>
 
