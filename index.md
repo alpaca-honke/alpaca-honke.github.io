@@ -21,6 +21,13 @@ permalink: /
 - 機械・工学  
 - ボカロとその周辺  
 
+### 作ったもので是非見てほしいもの
+- [ボカロ曲を入力するとAdeliaeさんの曲を10曲おすすめする](https://alpaca-honke.github.io/ade-music/)
+- [Google検索オプション簡単ツール](https://alpaca-honke.github.io/google-option)
+- [ブラウザ拡張Twishare to Misskey](https://github.com/alpaca-honke/twishare-to-misskey)
+
+その他は[alpaca-honke/alpaca-honke.github.io](https://github.com/alpaca-honke/alpaca-honke.github.io)
+
 ### 連絡先  
 ご連絡は[TwitterのDM](https://twitter.com/messages/compose?recipient_id=1438822849926500359)もしくは[GoogleForms](https://docs.google.com/forms/d/e/1FAIpQLSdRuzAmGEqDV4RRd-70JKXD0lAHE6xjEp8Qp5-Jfut-ysQMYQ/viewform)からお願いします。  
 Eメールでのやり取りを希望する方は、GoogleFormsから、返信の受信方法でEメールを選択してください。  

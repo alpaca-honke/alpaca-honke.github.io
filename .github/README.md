@@ -4,6 +4,7 @@
 # ページ一覧（抜けあったらすいません）  
 ## 各種ドキュメント  
 - [URL Suspispector](https://alpaca-honke.github.io/url_suspispector/)  
+- [Twishare to Misskeyがインストール/更新されました（ブラウザ拡張の更新時に表示されるページ）](https://alpaca-honke.github.io/twishare-to-misskey/installed.html)
 
 ## 良さげなヤツら  
 - [ボカロ曲を入力するとAdeliaeさんの曲を10曲おすすめする](https://alpaca-honke.github.io/ade-music/)
