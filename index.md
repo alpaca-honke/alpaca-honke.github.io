@@ -26,6 +26,7 @@ permalink: /
 - [Google検索オプション簡単ツール](https://alpaca-honke.github.io/google-option)
 - [ブラウザ拡張Twishare to Misskey](https://github.com/alpaca-honke/twishare-to-misskey)
 - [カスタムプロンプトProwpt](https://github.com/alpaca-honke/prowpt)
+- [Misskey Share URL作成ツール（非公式）](https://alpaca-honke.github.io/make-misskeyshare-url/)
 
 その他は[alpaca-honke/alpaca-honke.github.io](https://github.com/alpaca-honke/alpaca-honke.github.io)や[Githubプロフィール](https://github.com/alpaca-honke)などをご覧ください。
 
@@ -39,8 +40,11 @@ Eメールでのやり取りを希望する方は、GoogleFormsから、返信�
 - [GitHub @alpaca-honke](https://github.com/alpaca-honke)  
 - [ウェブページ（このページ）（大したことは書いてないね。）](https://alpaca-honke.github.io)  
 - [Qiita @alpaca-honke](https://qiita.com/alpaca-honke)  
-- [Misskey (Mastodon などでも閲覧可) @alpaca_honke@misskey.io](https://misskey.io/@alpaca_honke/)
-- [Vocalodon (Mastodon) @alpaca_honke@vocalodon.net](https://vocalodon.net/web/accounts/354814)
+- Fediverse  
+    - [Misskey.io @alpaca_honke@misskey.io](https://misskey.io/@alpaca_honke/)
+    - [もこきー @alpaca_honke@mkkey.net](https://mkkey.net/@alpaca_honke)
+    - [のえすきー @alpaca_honke@misskey.noellabo.jp](https://misskey.noellabo.jp/@alpaca_honke)
+    - [Vocalodon (Mastodon) @alpaca_honke@vocalodon.net](https://vocalodon.net/web/accounts/354814)
 - <details>
     <summary>その他</summary>
       <ul>

@@ -10,6 +10,7 @@
 - [ボカロ曲を入力するとAdeliaeさんの曲を10曲おすすめする](https://alpaca-honke.github.io/ade-music/)
 - [Google/Yahoo!/Bing検索](https://alpaca-honke.github.io/textbox/)  
 - [Google検索オプション簡単ツール](https://alpaca-honke.github.io/google-option/)   
+- [Misskey Share URL作成ツール（非公式）](https://alpaca-honke.github.io/make-misskeyshare-url/)
 
 ## あんまり満足してないヤツら（改善するとは言ってない）  
 - [ピアノonブラウザ](https://alpaca-honke.github.io/keyboard/)  
