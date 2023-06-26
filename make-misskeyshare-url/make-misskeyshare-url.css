@@ -114,11 +114,16 @@ button:active {
     ::placeholdaer {
     color: #a0a0a0;
     }
-    input:hover,
+    input:hover{
+        background: #606060;
+    }
     textarea:hover{
         background: #606060;
     }
-    input:focus,
+    input:focus{
+        background: #d0d0d0;
+        color: #000000;
+    }
     textarea:focus{
         background: #d0d0d0;
         color: #000000;
