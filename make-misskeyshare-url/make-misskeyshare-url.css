@@ -106,7 +106,7 @@ button:active {
         color: #279cc0;
     }
 
-    input{
+    input,textarea{
         background: #303030;
         color: #d0d0d0;
         border: solid 1px #909090;
@@ -114,10 +114,12 @@ button:active {
     ::placeholdaer {
     color: #a0a0a0;
     }
-    input:hover {
+    input:hover,
+    textarea:hover{
         background: #606060;
     }
-    input:focus {
+    input:focus,
+    textarea:focus{
         background: #d0d0d0;
         color: #000000;
     }
