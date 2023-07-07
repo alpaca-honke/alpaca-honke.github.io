@@ -55,3 +55,6 @@ Eメールでのやり取りを希望する方は、GoogleFormsから、返信�
 
 ## その他
 このサイトにあげたページは[alpaca-honke/alpaca-honke.github.io](https://github.com/alpaca-honke/alpaca-honke.github.io/)からご覧ください。  
+
+
+© Copyright 2022-2023 あるかっぱ/アルパカ本家 Alkappa/alpaca-honke
