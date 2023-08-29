@@ -41,6 +41,7 @@ Eメールでのやり取りを希望する方は、GoogleFormsから、返信�
     - [Misskey.io @alpaca_honke@misskey.io](https://misskey.io/@alpaca_honke/)
     - [のえすきー @alpaca_honke@misskey.noellabo.jp](https://misskey.noellabo.jp/@alpaca_honke)
     - [Vocalodon (Mastodon) @alpaca_honke@vocalodon.net](https://vocalodon.net/web/accounts/354814)
+- Discord @alpaca_honke
 - [Twitter @alpaca_honke](https://twitter.com/alpaca_honke) 
 - [GitHub @alpaca-honke](https://github.com/alpaca-honke)  
 - [ウェブページ（このページ）（大したことは書いてないね。）](https://alpaca-honke.github.io)  
