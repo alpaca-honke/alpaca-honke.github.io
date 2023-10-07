@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YX1PLXRJE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2YX1PLXRJE');
+    </script>
+    <meta property="og:url" content="https://alpaca-honke.github.io/make-donshare-url/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="donshare URL作成ツール（非公式）" />
+    <meta property="og:description" content="donshareのURLを簡単に作成できるサイトです。" />
+    <meta property="og:site_name" content="あるかっぱ/アルパカ本家 Alkappa/alpaca-honke" />
+    <meta property="og:image" content="https://alpaca-honke.github.io/GitHubMarkForOGP.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@alpaca_honke" />
+    <link rel="canonical" href="https://alpaca-honke.github.io/make-donshare-url/">
+    <meta charset="UTF-8">
+    <meta name="description" content="donshareのURLを簡単に作成できるサイトです。" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>donshare URL作成ツール（非公式）</title>
+    <link rel="stylesheet" href="make-donshare-url.css">
+</head>
+<body>
+    <div class="all">
+        <h1>donshare URL作成ツール（非公式）</h1>
+        <p class="description"><a href="https://donshare.net">donshare</a>を使用してMastodonにシェアするURLを簡単に作成できるツールです。</p>
+        <div class="container">
+            <div class="text">
+                <p class="formtitle">シェアする文字（タイトルなど）</p>
+                <form onsubmit="done(); return false;">
+                    <textarea id="text" placeholder="シェアする文字を入力"></textarea>
+                </form>
+            </div>
+            <div class="seturlbox">
+                <p class="formtitle">シェアするURLを入力</p>
+                <form onsubmit="done(); return false;">
+                    <input id="url" type="url" placeholder="URLを入力">
+                </form>
+            </div>
+            <button class="done" onclick="done()">更新</button>
+            <p class="formtitle">生成されたURL</p>
+            <div class="resultbox">
+                <input id="result" type="text" readonly="readonly">
+            </div>
+            <button onclick="copy(); return false;">Copy</button>
+        </div>
+        <p>© Copyright 2023 あるかっぱ/アルパカ本家 Alkappa/alpaca-honke<br>donshareは未来情報産業株式会社さんの製品です。</p>
+    </div>
+</body>
+<script type="text/javascript" language="javascript" src="make-donshare-url.js"></script>
+</html>
