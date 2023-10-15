@@ -9,9 +9,9 @@ function done() {
     //エンコードを解除する
     processed_url = encodeURI(decodeURIComponent(url));
     share_text = `${text}\n${processed_url}`;
-    misskeyshare.searchParams.set("text",share_text);
+    donshare.searchParams.set("text",share_text);
     
-    document.getElementById("result").value = misskeyshare.href;
+    document.getElementById("result").value = donshare.href;
 }
 
 function copy() {
