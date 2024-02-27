@@ -31,9 +31,12 @@ permalink: /
 その他は[alpaca-honke/alpaca-honke.github.io](https://github.com/alpaca-honke/alpaca-honke.github.io)や[Githubプロフィール](https://github.com/alpaca-honke)などをご覧ください。
 
 ### 連絡先  
-ご連絡は[GoogleForms](https://docs.google.com/forms/d/e/1FAIpQLSdRuzAmGEqDV4RRd-70JKXD0lAHE6xjEp8Qp5-Jfut-ysQMYQ/viewform)もしくは下記SNSでお願いします。  
-Eメールでのやり取りを希望する方は、GoogleFormsから、返信の受信方法でEメールを選択してください。  
-
+- Fediverse  
+    - [もこきー @alpaca_honke@mkkey.net](https://mkkey.net/@alpaca_honke) ←だいたいここに生息
+    - [Misskey.io @alpaca_honke@misskey.io](https://misskey.io/@alpaca_honke/)
+- Discord @alpaca_honke
+- [Twitter @alpaca_honke](https://twitter.com/alpaca_honke) 
+- [電子メール akp@ymail.ne.jp](mailto:akp@ymail.ne.jp) 
 
 ### 各種SNS・その他リンク  
 - Fediverse  
